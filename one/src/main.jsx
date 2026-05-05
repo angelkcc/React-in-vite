@@ -16,10 +16,23 @@ import L from './L.jsx'
 import M from './M.jsx'
 import N from './N.jsx'
 
+import FormWithReducer from './Form.jsx'
+import { CartProvider } from './CartContext.jsx'
+import Addtocart from './Addtocart.jsx'
+import Todotask from './Todotask.jsx'
+import Counter from './Counter.jsx'
+import Inputfocus from './Inputfocus.jsx'
+import O from './O.jsx'
+import Q from './Q.jsx'
+import P from './P.jsx'
+import Cus from './Cus.jsx'
+
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     <BrowserRouter>
-    <N/>
+    
+    <Cus/>
+    
     </BrowserRouter> 
   </StrictMode>,
 )
